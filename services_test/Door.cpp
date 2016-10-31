@@ -16,7 +16,6 @@ void main(int argc,char *argv[])
 	else if( lstrcmpiA(argv[1], "bypass") == 0 ){
 		GetModuleFileName(NULL,(LPSTR)chpath,sizeof(chpath));  
 		strcat_s(chpath," install");
-		printf("%s",chpath);
 		BypassUac(chpath);
 	}
 	else{

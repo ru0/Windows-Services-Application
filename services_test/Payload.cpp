@@ -1,7 +1,6 @@
 #include "Payload.h"
 
 
-//服务线程函数
 DWORD WINAPI Service(LPVOID lpvThread)
 {
 	/*
